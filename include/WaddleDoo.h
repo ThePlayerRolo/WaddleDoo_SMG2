@@ -7,4 +7,6 @@ public:
 
     virtual void init(const JMapInfoIter &rIter);
     virtual void control();
+    
+    s32 mDeathCollectable;
 };
