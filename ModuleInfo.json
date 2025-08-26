@@ -1,0 +1,17 @@
+{
+  "Name": "Waddle Doo For SMG2",
+  "Author": "ThePlayerRolo",
+  "Description": "BEAM ATTACK! Waddle Doo in SMG2!",
+  "InstallDependencies": ["Syati_ObjectFactories", "Syati_Init"],
+  "ModuleData" : [
+    {
+      "NameObjFactory" : [
+        {
+          "Name" : "WaddleDoo",
+          "Function" : "createExtActor<WaddleDoo>",
+          "Include" : "WaddleDoo.h"
+        }
+      ]
+    }
+  ]
+}
